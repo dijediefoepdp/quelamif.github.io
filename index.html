@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Ak3 x B2 🌴</title>
-    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
+    
     <style>
-        .ak3-b2 {
-            font-family: 'Gochi Hand', cursive;
+        @font-face {
+            font-family: 'myFont';
+            src: url('myFont.ttf') format('truetype');
+        }
+
+        .floating {
+            font-family: 'myFont', sans-serif;
             font-size: 48px;
             color: #FFFFFF;
             text-shadow: 0px 0px 20px #FFFFFF;
-            animation: float 2s infinite;
-            display: inline-block;
-            margin: 0;
-            padding: 0;
+            position: absolute;
+            animation: float 5s ease-in-out infinite;
         }
+
         @keyframes float {
             0% {
                 transform: translate(0, 0);
             }
             50% {
-                transform: translate(0, -20px);
+                transform: translate(50px, 50px);
             }
             100% {
                 transform: translate(0, 0);
@@ -33,13 +37,9 @@
 <body>
     <section class="main">
         <img src="Ak3_pfp.gif" alt="" srcset="">
-        <span class="ak3-b2">Ak3 x B2</span>
+        <p class="floating">Ak3 x B2</p>
         <p>QLF, NDA ✌️</p>
-        <ul>
-            <li><a target="_blank" href="https://discord.gg/ak3"><i class="fab fa-discord"></i></a></li>
-        </ul>
-    </section>
-
+    
     <audio autoplay="false" id="audioElement" loop="true" src="music.mp3"></audio>
 </body>
 </html>
