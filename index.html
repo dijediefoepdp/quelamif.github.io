@@ -2,33 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mon site web</title>
+    <title>Ak3 x B2 🌴</title>
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
-
     <style>
-        @font-face {
-            font-family: 'myFont';
-            src: url('myFont.ttf') format('truetype');
-        }
-
-        span {
-            font-family: 'myFont', sans-serif;
+        .ak3-b2 {
+            font-family: 'Gochi Hand', cursive;
             font-size: 48px;
             color: #FFFFFF;
             text-shadow: 0px 0px 20px #FFFFFF;
-            animation: levitate 1s infinite;
+            animation: float 2s infinite;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
         }
-
-        @keyframes levitate {
+        @keyframes float {
             0% {
-                transform: translateY(0px);
+                transform: translate(0, 0);
             }
             50% {
-                transform: translateY(-10px);
+                transform: translate(0, -20px);
             }
             100% {
-                transform: translateY(0px);
+                transform: translate(0, 0);
             }
         }
     </style>
@@ -36,7 +33,7 @@
 <body>
     <section class="main">
         <img src="Ak3_pfp.gif" alt="" srcset="">
-        <span>Ak3 x B2</span>
+        <span class="ak3-b2">Ak3 x B2</span>
         <p>QLF, NDA ✌️</p>
         <ul>
             <li><a target="_blank" href="https://discord.gg/ak3"><i class="fab fa-discord"></i></a></li>
