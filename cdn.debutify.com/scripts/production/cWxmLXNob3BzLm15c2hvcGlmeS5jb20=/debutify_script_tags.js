@@ -1,1 +1,0 @@
-console.log("Upgrade to Paid plan");
