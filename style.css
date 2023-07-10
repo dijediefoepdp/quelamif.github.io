@@ -184,13 +184,19 @@ section.main ul li a:hover {
     padding: 10px;
     text-align: center;
     margin-top: 20px;
-    color: #FFFFFF;
 }
 
-.password-box p {
-    font-size: 18px;
-    margin: 0;
+.password-box input {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #666666;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
 }
+
 
 
   }
