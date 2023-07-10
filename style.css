@@ -176,5 +176,21 @@ section.main ul li a:hover {
     to {
         transform: translate3d(0, 0, 0);
         opacity: 1
-    }
+  
+    } 
+.password-box {
+    background-color: #333333;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF;
 }
+
+.password-box p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+  }
